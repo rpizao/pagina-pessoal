@@ -1,0 +1,77 @@
+@font-face {
+  font-family: DesignerBlock;
+  src: url("./css/fonts/DESIB___.ttf");
+}
+
+@font-face {
+  font-family: RalewayExtraLight;
+  src: url("./css/fonts/Raleway-ExtraLight.ttf");
+}
+
+.App {
+  text-align: center;
+  font-family: DesignerBlock;
+}
+
+.Logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  background-image: url("./imgs/PZ-Logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1%;
+  height: 100px;
+  width: 150px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tab-content {
+  padding-top: 100px;
+}
+
+.background-content {
+  border-top: 2px dotted lightgray;
+  border-radius: 5px;
+  width: 640px;
+  display: block;
+  position: fixed;
+  left: 50%;
+  margin-left: -320px;
+  text-align: justify;
+  padding: 10px 10px 10px 10px;
+  font-family: RalewayExtraLight;
+}
+
+.header {
+  text-align: center;
+}
+
+.header .subtitle {
+  font-size: 20px;
+  font-style: italic;
+}

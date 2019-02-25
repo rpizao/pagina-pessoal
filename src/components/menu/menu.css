@@ -1,0 +1,42 @@
+
+nav#nav {
+    height: 58px;
+    width: 640px;
+    display: block;
+    position: fixed;
+    top:0;
+    left:50%;
+    margin-left: -320px;
+    z-index: 120;
+    border-bottom:1px dotted #050000;
+    background: rgba(255,255,255,.6)
+  }
+  nav#nav ul {
+    margin: 0;
+    padding: 30px 0 0;
+  }
+
+  nav#nav ul li {
+    display:block;
+    float:left;
+    width: 125px;
+    text-align: center;
+    font-size: 20px;
+    color:#050000;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  
+  nav#nav .barrita {
+    height: 80px;
+    width: 125px;
+    background: url('../../imgs/menu_border2.png') no-repeat 0 0;
+    background-size:contain;
+    position: relative;
+    top:23px;
+  }
+  
+  /* nav#nav ul li :hover{
+    color: lightsteelblue;
+  } */
